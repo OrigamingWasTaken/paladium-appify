@@ -1,5 +1,0 @@
-#!/bin/bash
-script_dir=$(dirname "$0")
-parent_dir=$(dirname "$script_dir")
-
-exec java -Xdock:icon="$(parent_dir)/Resources/icon.icns" -jar "$(parent_dir)/Java/Paladium\ Games\ Launcher.jar"
