@@ -10,7 +10,10 @@ En effet, j'ai trouvé cela frustrant de ne pas pouvoir facilement lancer l'appl
 Vous devez télécharger le nouveau launcher sur https://paladium-pvp.fr, puis glisser le fichier `Paladium Games Launcher.jar` dans votre dossier téléchargement (s'il n'y est pas déjà).
 
 Vous pouvez utiliser ce script sans devoir le télécharger en utilisant une commande. Pour ce faire, appuyez sur `Command + Espace` puis écrivez `Terminal`. Ouvrez le terminal, puis écrivez cette commande:
-`curl https://raw.githubusercontent.com/OrigamingWasTaken/paladium-appify/main/appify.sh | sh`, ensuite appuez sur `Enter`.
+
+`curl -s https://raw.githubusercontent.com/OrigamingWasTaken/paladium-appify/main/appify.sh | sh`
+
+Ensuite appuyez sur `Enter`.
 
 Si vous avez correctement placé le fichier `Paladium Games Launcher.jar` dans votre dossier des téléchargements, le script va vous créer une application nommée **Paladium Games** dans `/Applications`.
 
