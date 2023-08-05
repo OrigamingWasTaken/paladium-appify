@@ -1,7 +1,6 @@
 # paladium-appify
 
-![Icon1024](https://github.com/OrigamingWasTaken/paladium-appify/assets/74014262/4bcece94-af07-44ce-ad64-a9e9b6a26eee)
-
+![Icon1024 (1)](https://github.com/OrigamingWasTaken/paladium-appify/assets/74014262/142adf44-c54c-4c59-90aa-731413cd7eb4)
 
 Paladium Appify est un script qui permet de transformer le fichier .jar du launcher en Application MacOS.
 En effet, j'ai trouvé cela frustrant de ne pas pouvoir facilement lancer l'application avec Spotlight. C'est pour cela que j'ai crée ce script.
