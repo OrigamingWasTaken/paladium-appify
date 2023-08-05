@@ -18,3 +18,9 @@ Ensuite appuyez sur `Enter`.
 Si vous avez correctement placé le fichier `Paladium Games Launcher.jar` dans votre dossier des téléchargements, le script va vous créer une application nommée **Paladium Games** dans `/Applications`.
 
 Vous n'avez plus qu'à lancer l'application!
+
+## Comment ça marche?
+
+Le script va créer un dossier `Paladium Games.app` dans `/Applications`, et en suivant la structure des applications MacOS, va créer quelque dossier contenant l'icône du launcher et d'autres choses.
+
+Le script va bouger le fichier `Paladium Games Launcher.jar` dans l'application puis va créer un autre script shell qui s'executera à l'ouverture de l'application. Ce script va utiliser une commande **java** pour lancer le fichier `.jar` de paladium en utilisant l'icône integrée (bien qu'actuellement, elle ne marche que pour le bootloader, et pas le launcher en lui même)
