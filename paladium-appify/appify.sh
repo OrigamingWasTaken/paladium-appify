@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 # Fichier utilisé pour lancer je launcher avec la commande "java" et utiliser l'icône de l'application
-paladium_games='#!/bin/bash
+paladium_games='#!/bin/sh
 script_dir=$(dirname "$0")
 parent_dir=$(dirname "$script_dir")
 
