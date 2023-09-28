@@ -1,3 +1,4 @@
+#!/bin/bash
 # Fichier utilisé pour lancer je launcher avec la commande "java" et utiliser l'icône de l'application
 paladium_games='#!/bin/bash
 script_dir=$(dirname "$0")
