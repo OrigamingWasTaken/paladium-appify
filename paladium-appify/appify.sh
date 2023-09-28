@@ -34,7 +34,7 @@ mkdir /Applications/Paladium\ Games.app/Contents/Resources
 
 # Télécharger l'icone de l'application
 # https://github.com/OrigamingWasTaken/paladium-appify/blob/main/AppIcon.icns
-curl -s https://raw.githubusercontent.com/OrigamingWasTaken/paladium-appify/main/AppIcon.icns > /Applications/Paladium\ Games.app/Contents/Resources/AppIcon.icns
+curl -s https://raw.githubusercontent.com/OrigamingWasTaken/paladium-suggestions/main/paladium-appify/AppIcon.icns > /Applications/Paladium\ Games.app/Contents/Resources/AppIcon.icns
 
 # Bougez le jar du launcher dans le dossier .app
 mv ~/Downloads/Paladium\ Games\ Launcher.jar /Applications/Paladium\ Games.app/Contents/Java
