@@ -13,7 +13,7 @@ Vous devez télécharger le nouveau launcher sur https://paladium-pvp.fr, puis g
 
 Vous pouvez utiliser ce script sans devoir le télécharger en utilisant une commande. Pour ce faire, appuyez sur `Command + Espace` puis écrivez `Terminal`. Ouvrez le terminal, puis écrivez cette commande:
 
-`curl -s https://github.com/OrigamingWasTaken/paladium-suggestions/raw/main/paladium-appify/appify.sh | sh`
+`curl -s https://raw.githubusercontent.com/OrigamingWasTaken/paladium-suggestions/main/paladium-appify/appify.sh | sh`
 
 Ensuite appuyez sur `Enter`.
 
