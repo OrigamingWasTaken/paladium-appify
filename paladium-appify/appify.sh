@@ -26,6 +26,9 @@ info_plist='<?xml version="1.0" encoding="UTF-8"?>
 
 
 # Créer le dossier .app (l'application)
+if [ -d /Applications/Paladium\ Games.app ]; then
+	rm -rf /Applications/Paladium\ Games.app
+fi
 mkdir /Applications/Paladium\ Games.app
 mkdir /Applications/Paladium\ Games.app/Contents
 mkdir /Applications/Paladium\ Games.app/Contents/MacOS
@@ -37,7 +40,7 @@ mkdir /Applications/Paladium\ Games.app/Contents/Resources
 curl -s https://raw.githubusercontent.com/OrigamingWasTaken/paladium-suggestions/main/paladium-appify/AppIcon.icns > /Applications/Paladium\ Games.app/Contents/Resources/AppIcon.icns
 
 # Bougez le jar du launcher dans le dossier .app
-mv ~/Downloads/Paladium\ Games\ Launcher.jar /Applications/Paladium\ Games.app/Contents/Java
+cp ~/Downloads/Paladium\ Games\ Launcher.jar /Applications/Paladium\ Games.app/Contents/Java
 
 
 # Sauvegarde le fichier Info.plist et paladium-games (voir plus haut)
